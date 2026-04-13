@@ -1,0 +1,14 @@
+[2026-04-13T18:31:12Z] === ENRICH ITERATION 1 START | repo=jharding/grunt-exec sha=25fa05b4 ===
+[2026-04-13T18:31:12Z] [iter=1] PHASE START: enrich repo=jharding/grunt-exec sha=25fa05b4 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/25fa05b4-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/25fa05b466f6e016a8998a0cf42df6dc3019f85c.nq.gz
+[2026-04-13T18:31:13Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-13T18:31:13Z] [iter=1] AST store loaded triples=23729 load_secs=0 mem_mb=117 MB
+[2026-04-13T18:31:13Z] [iter=1] Step 2: Finding LSP targets mem_mb=117 MB
+[2026-04-13T18:31:13Z] [iter=1] LSP targets found call_sites=164 imports=0 extends=0 implements=0 secs=0
+[2026-04-13T18:31:13Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=117 MB
+[2026-04-13T18:31:13Z] [iter=1] Position index built positions=1741 nodes_with_types=1940 secs=0 mem_mb=117 MB
+[2026-04-13T18:31:13Z] [iter=1] Step 3: Starting LSP resolution mem_mb=117 MB already_completed_types=[] already_completed_files=0
+[2026-04-13T18:31:13Z] [iter=1] Resolving target type target_type=call_site count=164
+[2026-04-13T18:31:16Z] [iter=1] Target type resolved target_type=call_site resolved=11 errors=121 secs=3 mem_mb=117 MB
+[2026-04-13T18:31:18Z] [iter=1] Step 5: Writing final enrichment file triples=1688
+[2026-04-13T18:31:18Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/25fa05b466f6e016a8998a0cf42df6dc3019f85c.nq.gz size_kb=22
+[2026-04-13T18:31:18Z] [iter=1] PHASE END: enrich elapsed_s=6 elapsed_min=0.1 total_triples=1688
