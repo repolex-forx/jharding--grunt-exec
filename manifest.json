@@ -1,0 +1,29 @@
+{
+  "manifest_version": "1.0",
+  "org": "jharding",
+  "repo": "grunt-exec",
+  "versions": [
+    {
+      "commit": "25fa05b466f6e016a8998a0cf42df6dc3019f85c",
+      "parsed_at": "2026-04-13T18:16:44.382232+00:00",
+      "tag": "v3.0.0",
+      "filetree": "filetree/25fa05b466f6e016a8998a0cf42df6dc3019f85c.nq.gz",
+      "blobs": [
+        "blob/fc6e747990d4b0c33f33b554a4a3d52828ba997e.nq.gz",
+        "blob/3f308e80614446b19c672df3a8e2aef5145c815c.nq.gz",
+        "blob/e22e37338499e2e9ccc600c41b4c06696e7aaba2.nq.gz",
+        "blob/0096874542a98b7fc18261d9c3673d8489fbe086.nq.gz",
+        "blob/3d3ff480ad68dd6124cff08adcabc53b0052837b.nq.gz",
+        "blob/423efe7ee014b0b6ff048d02e1949beb5861ab98.nq.gz",
+        "blob/a59d9b8ba1259bdd550328ba4ea6264416049a0a.nq.gz",
+        "blob/6585f99d4ff52d0163ec86337991e4ae8d003eed.nq.gz",
+        "blob/8d5b7ae2218ca5a4fb40309fc607c34d4fb9c5ef.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
